@@ -181,8 +181,29 @@ if (-not $branchName) {
     $branchName = $Branch
 }
 
+$pushSucceeded = $false
 if (-not $NoPush) {
-    Invoke-Git push -u $RemoteName $branchName
+    try {
+        Invoke-Git push -u $RemoteName $branchName
+        $pushSucceeded = $true
+    }
+    catch {
+        Write-Error @"
+GitHub push failed.
+
+The local commit was created, but GitHub rejected the push. On Git for Windows,
+refresh credentials with:
+
+  git credential-manager github login
+
+Then re-run this script with the same arguments. Original error:
+$($_.Exception.Message)
+"@
+        throw
+    }
+}
+else {
+    $pushSucceeded = $true
 }
 
 $remoteForMessage = Get-GitText remote get-url $RemoteName
@@ -201,6 +222,7 @@ $handoffLines = @(
     "Branch URL: $branchWebUrl",
     "Commit: $commitSha",
     "Commit message: $CommitMessage",
+    "Pushed: $pushSucceeded",
     "Workspace: $repoRoot",
     "",
     "Please use the authorized GitHub repository access in ChatGPT to inspect this branch and summarize what Codex changed. Focus on changed files, how to run or verify the work, and any risks or follow-up tasks."
