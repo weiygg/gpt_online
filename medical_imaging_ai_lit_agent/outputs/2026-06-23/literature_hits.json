@@ -1,0 +1,187 @@
+[
+  {
+    "source": "PubMed",
+    "topic": "medical imaging foundation models",
+    "title": "Functional Outcome Prediction in Young Adults With Mental Health Symptoms Using Machine Learning and Large Language Models: Longitudinal Observational Study",
+    "authors": "Mikolas P, Huth F, Bröckel-Bundt K, Berndt C, Martini J",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "JMIR Ment Health",
+    "doi": "10.2196/84424",
+    "pmid": "42330189",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42330189/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "04bdce11981a",
+    "score": 3,
+    "reasons": [
+      "machine learning"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "medical imaging foundation models",
+    "title": "A multi-modal foundation model for brain disease diagnosis and medical imaging",
+    "authors": "Zhang G, Gao Z, Duan C, Liu J, Lizhu Y",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Patterns (N Y)",
+    "doi": "10.1016/j.patter.2026.101538",
+    "pmid": "42328202",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42328202/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "c826a761600a",
+    "score": 5,
+    "reasons": [
+      "foundation model"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "radiomics reproducibility",
+    "title": "A dual space MRI radiomic network signature for risk stratification and subtyping of mild cognitive impairment",
+    "authors": "Xiong D, Liu M, Xie J, Liu Z, Wang J",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "iScience",
+    "doi": "10.1016/j.isci.2026.116394",
+    "pmid": "42325556",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42325556/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "ec5464edeadf",
+    "score": 1,
+    "reasons": [],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "radiomics reproducibility",
+    "title": "Integrating MRI radiomics and transcriptomics to predict IDH mutation status and prognosis in glioma",
+    "authors": "Zhong RD, Li Q, Wang H, Kou ZW, Guo SX",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Cancer Cell Int",
+    "doi": "10.1186/s12935-026-04384-2",
+    "pmid": "42324558",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42324558/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "0ed638721342",
+    "score": 5,
+    "reasons": [
+      "radiomics"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "liver metastasis imaging AI",
+    "title": "Are liver metastases from uveal melanoma a clinical indication for dynamic PET? A comparison of Patlak parametric imaging with standard and delayed static SUV imaging using long axial field-of-view PET/CT",
+    "authors": "Pan L, Sachpekidis C, Strauss DS, Hassel JC, Dimitrakopoulou-Strauss A",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Eur J Nucl Med Mol Imaging",
+    "doi": "10.1007/s00259-026-08014-x",
+    "pmid": "42322400",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42322400/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "5116b0b35318",
+    "score": 3,
+    "reasons": [
+      "CT"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "liver metastasis imaging AI",
+    "title": "SPADE: A Deep Learning Framework for Spatial Mapping and Quantitative Cell-Cell Interaction Inference",
+    "authors": "Li X, Zhang N, Jin Z",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Adv Sci (Weinh)",
+    "doi": "10.1002/advs.76142",
+    "pmid": "42314058",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42314058/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "f9f1f8e54421",
+    "score": 5,
+    "reasons": [
+      "CT",
+      "deep learning"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "thyroid CT AI",
+    "title": "Benchmarking deep learning models for laryngeal cancer staging using the LaryngealCT dataset",
+    "authors": "Roy N, Tran SN, Sajjanhar A, Devaraja K, Koteshwara P",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Sci Rep",
+    "doi": "10.1038/s41598-026-58171-0",
+    "pmid": "42321364",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42321364/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "f5406a36f89d",
+    "score": 5,
+    "reasons": [
+      "CT",
+      "deep learning"
+    ],
+    "landing_potential": "待核查"
+  },
+  {
+    "source": "PubMed",
+    "topic": "thyroid CT AI",
+    "title": "Dual-Database Bibliometric Analysis Combined with Gephi-Based Network Visualization of Artificial Intelligence Applications in the Identification and Diagnosis of Thyroid Space-Occupying Lesions",
+    "authors": "Wen S, Qian W, Su Y, Cao X, Chen T",
+    "year": "2026",
+    "date": "2026-01-01",
+    "venue": "Curr Med Imaging",
+    "doi": "10.2174/0115734056466850260610101215",
+    "pmid": "42312525",
+    "arxiv_id": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42312525/",
+    "abstract": "",
+    "sources": [
+      "PubMed"
+    ],
+    "id": "da84e2ce220a",
+    "score": 5,
+    "reasons": [
+      "artificial intelligence",
+      "thyroid"
+    ],
+    "landing_potential": "待核查"
+  }
+]

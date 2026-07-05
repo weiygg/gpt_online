@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\yuguo\\Documents\\自动化科研流程\\scripts\\codex_handoff.ps1\" -InitIfNeeded -RemoteUrl \"https://github.com/weiygg/gpt_online.git\" -GitUserName \"weiygg\" -GitUserEmail \"2278959338@qq.com\" -CommitMessage \"Codex handoff\" -OpenChatGPT",
+            "timeout": 120,
+            "statusMessage": "Publishing Codex handoff to GitHub"
+          }
+        ]
+      }
+    ]
+  }
+}

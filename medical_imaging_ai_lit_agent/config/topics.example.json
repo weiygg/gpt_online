@@ -1,0 +1,36 @@
+{
+  "owner": "yuguo",
+  "default_days_back": 7,
+  "default_max_results_per_source": 8,
+  "ncbi_email": "",
+  "topics": [
+    {
+      "name": "medical imaging foundation models",
+      "pubmed": "(medical imaging[Title/Abstract] OR radiology[Title/Abstract] OR MRI[Title/Abstract] OR CT[Title/Abstract]) AND (foundation model[Title/Abstract] OR large language model[Title/Abstract] OR vision transformer[Title/Abstract] OR self-supervised[Title/Abstract])",
+      "arxiv": "\"medical imaging\" AND (\"foundation model\" OR \"vision transformer\" OR \"self-supervised\")",
+      "crossref": "medical imaging foundation model radiology AI",
+      "priority_keywords": ["foundation model", "external validation", "multi-center", "radiology", "segmentation"]
+    },
+    {
+      "name": "radiomics reproducibility",
+      "pubmed": "(radiomics[Title/Abstract]) AND (reproducibility[Title/Abstract] OR robustness[Title/Abstract] OR external validation[Title/Abstract])",
+      "arxiv": "radiomics reproducibility robustness external validation",
+      "crossref": "radiomics reproducibility robustness external validation",
+      "priority_keywords": ["radiomics", "reproducibility", "external validation", "feature stability"]
+    },
+    {
+      "name": "liver metastasis imaging AI",
+      "pubmed": "(liver metastasis[Title/Abstract] OR colorectal liver metastasis[Title/Abstract]) AND (CT[Title/Abstract] OR MRI[Title/Abstract] OR radiomics[Title/Abstract] OR deep learning[Title/Abstract])",
+      "arxiv": "\"liver metastasis\" AND (CT OR MRI OR radiomics OR \"deep learning\")",
+      "crossref": "liver metastasis CT MRI radiomics deep learning",
+      "priority_keywords": ["liver metastasis", "colorectal", "CT", "MRI", "survival", "response"]
+    },
+    {
+      "name": "thyroid CT AI",
+      "pubmed": "(thyroid[Title/Abstract]) AND (CT[Title/Abstract] OR ultrasound[Title/Abstract]) AND (radiomics[Title/Abstract] OR deep learning[Title/Abstract] OR artificial intelligence[Title/Abstract])",
+      "arxiv": "thyroid CT ultrasound radiomics deep learning",
+      "crossref": "thyroid CT ultrasound radiomics deep learning artificial intelligence",
+      "priority_keywords": ["thyroid", "CT", "ultrasound", "risk", "lymph node"]
+    }
+  ]
+}
