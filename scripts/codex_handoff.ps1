@@ -181,11 +181,11 @@ if (-not $branchName) {
     $branchName = $Branch
 }
 
-$pushSucceeded = $false
+$pushStatus = "not attempted"
 if (-not $NoPush) {
     try {
         Invoke-Git push -u $RemoteName $branchName
-        $pushSucceeded = $true
+        $pushStatus = "succeeded"
     }
     catch {
         Write-Error @"
@@ -203,7 +203,7 @@ $($_.Exception.Message)
     }
 }
 else {
-    $pushSucceeded = $true
+    $pushStatus = "skipped by -NoPush"
 }
 
 $remoteForMessage = Get-GitText remote get-url $RemoteName
@@ -222,7 +222,7 @@ $handoffLines = @(
     "Branch URL: $branchWebUrl",
     "Commit: $commitSha",
     "Commit message: $CommitMessage",
-    "Pushed: $pushSucceeded",
+    "Push status: $pushStatus",
     "Workspace: $repoRoot",
     "",
     "Please use the authorized GitHub repository access in ChatGPT to inspect this branch and summarize what Codex changed. Focus on changed files, how to run or verify the work, and any risks or follow-up tasks."
